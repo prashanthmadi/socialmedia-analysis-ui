@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { BubbleGraphComponent } from './bubble-graph/bubble-graph.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BubbleGraphComponent
   ],
   imports: [
     BrowserModule,

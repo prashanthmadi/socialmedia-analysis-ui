@@ -1,0 +1,5 @@
+<svg [attr.height]="screen.y" [attr.width]="screen.x" id="bubble">
+  <circle [attr.cx]="nCirclePosition.x" [attr.cy]="nCirclePosition.y" [attr.r]="defaultRadius" fill="red" id="positiveCircle" />
+  <circle [attr.cx]="pCirclePosition.x" [attr.cy]="pCirclePosition.y" [attr.r]="defaultRadius" fill="green" id="negativeCircle" />
+</svg>
+<button (click)="addTwitter()">Add Tweet</button>
